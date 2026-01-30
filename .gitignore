@@ -1,0 +1,85 @@
+# -------------------------------------------------------------------------
+# PYTHON & SISTEMA
+# -------------------------------------------------------------------------
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ctypes
+*.so
+
+# Distribution / Packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# -------------------------------------------------------------------------
+# DATA SCIENCE & JUPYTER
+# -------------------------------------------------------------------------
+
+.ipynb_checkpoints
+.ipynb
+
+# -------------------------------------------------------------------------
+# DATOS SENSIBLES
+# -------------------------------------------------------------------------
+
+data/raw/*
+data/processed/*
+data/external/*
+data/interim/*
+
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+!data/interim/.gitkeep
+
+# Ignorar archivos sueltos de Excel/CSV
+*.csv
+*.xlsx
+*.xls
+*.tsv
+
+# -------------------------------------------------------------------------
+# CONFIGURACIÓN Y SECRETOS
+# -------------------------------------------------------------------------
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+test/*
+
+# -------------------------------------------------------------------------
+# IDE & EDITORES
+# -------------------------------------------------------------------------
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Mac OS / Windows files (Hay personas en lab que usan Mac)
+.DS_Store
+Thumbs.db
+
+src/constant/constant_variables.py
+notebooks/01_exploration.ipynb
+reports/figures/
+src/models/shap_models.py
